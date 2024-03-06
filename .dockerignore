@@ -1,0 +1,12 @@
+# .dockerignore
+
+# Exclude Python compiled files
+__pycache__
+
+# Exclude the ultis.py file
+test.py
+
+# Exclude virtual environment files (e.g., myenv)
+myenv/
+
+.git
