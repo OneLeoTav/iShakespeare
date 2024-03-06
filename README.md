@@ -75,4 +75,4 @@ Sumérgete en el mundo de la literatura shakesperiana con iShakespeare, nuestro 
 - **PyTorch:** Empleado para entrenar y probar nuestra red neuronal.
 - **HTML/CSS/JavaScript:** Utilizados para crear la interfaz frontal receptiva.
 - **PyTest:** Utilizado para pruebas automatizadas.
-- **Jupyter Notebook :** Utilizado para la fase de desarrollo, previo a la producción. El notebook está disponible en el mismo repository[iShakespeare.ipynb](https://github.com/OneLeoTav/GenerativeWizard/blob/main/iShakespeare.ipynb).
+- **Jupyter Notebook :** Utilizado para la fase de desarrollo, previo a la producción. El notebook está disponible en el mismo repository [iShakespeare.ipynb](https://github.com/OneLeoTav/GenerativeWizard/blob/main/iShakespeare.ipynb).
