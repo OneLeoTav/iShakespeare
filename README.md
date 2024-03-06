@@ -1,4 +1,4 @@
-# WeatherViz
+# iShakespeare
 
 ### Installation
 
