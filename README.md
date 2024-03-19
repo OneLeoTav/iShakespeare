@@ -2,6 +2,20 @@
 
 <img src="images/chatbot_homepage_gif.gif" alt="iShakespeare Homepage GIF" width="550" height="320">
 
+### Overview of the Repository
+This repository contains resources related to the development of a chatbot who specializes in William Shakespeare's life and work.
+
+The repository is structured as follows:
+
+- `data/`: Contains the dataset used in the project in <i>.json</i> format.
+- `model/`: Houses `chatbot_model.pt`, the trained neural network model used by the chatbot.
+- `notebook/`: Holds the `iShakespeare.ipynb` Jupyter Notebook where the chatbot model was developed.
+- `static/`: Includes `javascript.js` and `style.css` files used for the overall layout of the chatbot as well as its responsive and dynamic features.
+- `templates/`: Contains the `index.html` file, which orchestrates the general structure of the chatbot's interface.
+- `app.py`: The main application file responsible for running the chatbot.
+- `utils.py`: Includes utility functions used throughout the project.
+- `test.py`: Holds test cases to verify key functionalities of the chatbot and ensure its smooth functioning.
+
 ### Installation
 
 **Virtual Environment Setup**
@@ -19,11 +33,12 @@ Before setting up the virtual environment, ensure that you have Python 3.9 or hi
     python -m virtualenv env && source env/Scripts/activate
     ```
 4. Install project dependencies: `pip install -r requirements.txt`
-5. Launch the application locally: `python -B app.py`
+5. Launch the application locally: `python app.py`
 6. Open your preferred web brower and access: http://127.0.0.1:2424/
 
+
 ## Project Outline
-Step into the world of Shakespearean literature with iShakespeare, a chatbot designed to be your personal guide through the works and life of the Bard himself. Powered by advanced natural language processing techniques, including text pre-processing and neural network, iShakespeare is your gateway to Shakespearean wisdom. Chat, learn, and explore the world of Shakespeare with ease and delight.
+Step into the world of Shakespearean literature with iShakespeare, a chatbot designed to be your personal guide through the works and life of the Bard himself. Powered by natural language processing techniques as well as a neural network, iShakespeare is your gateway to Shakespearean wisdom. Chat, learn, and explore the world of Shakespeare with ease and delight.
 
 ### Main Features
 1. **Conversational:** Engage in both contextual and real-time dialogue with our chatbot.
@@ -37,10 +52,11 @@ Step into the world of Shakespearean literature with iShakespeare, a chatbot des
 - **PyTorch:** Used to train and test our neural network.
 - **HTML/CSS/JavaScript:** Utilized to create the responsive front-end and an applealing chat interface.
 - **PyTest:** Employed for automated testing, ensuring the reliability and robustness of the application under different scenarios.
-- **Jupyter Notebook:** Utilized for development prior to production. The notebook is available in the same repository at [iShakespeare.ipynb](https://github.com/OneLeoTav/GenerativeWizard/blob/main/iShakespeare.ipynb).
+- **Jupyter Notebook:** Utilized for development prior to production. The notebook is available in this repository at [iShakespeare.ipynb](https://github.com/OneLeoTav/GenerativeWizard/blob/main/notebook/iShakespeare.ipynb).
 
 ## Aperçu du Projet
-Découvrez les prévisions météorologiques en temps réel avec notre application Web. En utilisant les capacités de Flask et Bokeh, cette plateforme ergonomique fournit aux utilisateurs des visualisations intuitives et interactives des prévisions météorologiques pour les villes de France. Des fluctuations de température à la carte des vents, aux niveaux d'humidité et de pluviométrie, restez informé et préparé avec notre outil de visualisation météorologique dynamique.
+Plongez dans le monde de la littérature shakespearienne avec iShakespeare, notre chatbot conçu pour vous guider à travers les œuvres et la vie du Barde. S'appuyant sur diverses techniques de NLP ainsi qu'un réseau de neurones, iShakespeare, vous permet d’embrasser la sagesse shakespearienne. Discutez, apprenez et explorez le monde de Shakespeare avec facilité et plaisir.
+
 
 **Principales fonctionnalités :**
 1. **Conversationel :** Engagez un dialogue avec notre chatbot, avec des réponses contextuelles, en temps réel. 
@@ -55,10 +71,10 @@ Découvrez les prévisions météorologiques en temps réel avec notre applicati
 - **PyTorch :** Utilisé pour entraîner et tester notre réseau neuronal.
 - **HTML/CSS/JavaScript :** Utilisés pour créer l'interface frontale responsive.
 - **PyTest :** Employé pour les tests.
-- **Jupyter Notebook :** Utilisé pour le développement pré-production. Le notebook est disponible sur ce repository[iShakespeare.ipynb](https://github.com/OneLeoTav/GenerativeWizard/blob/main/iShakespeare.ipynb).
+- **Jupyter Notebook :** Utilisé pour le développement pré-production. Le notebook est disponible [ici](https://github.com/OneLeoTav/GenerativeWizard/blob/main/notebook/iShakespeare.ipynb), sur ce même repository.
 
 ## Panorama del Proyecto
-Sumérgete en el mundo de la literatura shakesperiana con iShakespeare, nuestro chatbot diseñado para guiarte a través de las obras y la vida del Bardo. Basado en técnicas avanzadas de procesamiento del lenguaje natural así como en una red neuronal, este chatbot te permite abrazar la sabiduría de Shakespeare. ¡Conversa, aprende y explora el mundo de Shakespeare con facilidad y placer!
+Sumérgete en el mundo de la literatura shakesperiana con iShakespeare, nuestro chatbot diseñado para guiarte a través de las obras y la vida del Bardo. Basado en técnicas de procesamiento del lenguaje natural así como en una red neuronal, este chatbot te permite abrazar la sabiduría de Shakespeare. ¡Conversa, aprende y explora el mundo de Shakespeare con facilidad y placer!
 
 
 **Funcionalidades principales:**
@@ -74,4 +90,4 @@ Sumérgete en el mundo de la literatura shakesperiana con iShakespeare, nuestro 
 - **PyTorch:** Empleado para entrenar y probar nuestra red neuronal.
 - **HTML/CSS/JavaScript:** Utilizados para crear la interfaz frontal receptiva.
 - **PyTest:** Utilizado para pruebas automatizadas.
-- **Jupyter Notebook :** Utilizado para la fase de desarrollo, previo a la producción. El notebook está disponible en el mismo repository [iShakespeare.ipynb](https://github.com/OneLeoTav/GenerativeWizard/blob/main/iShakespeare.ipynb).
+- **Jupyter Notebook :** Utilizado para la fase de desarrollo, previo a la producción. El notebook es disponible [aquí](https://github.com/OneLeoTav/GenerativeWizard/blob/main/notebook/iShakespeare.ipynb).
