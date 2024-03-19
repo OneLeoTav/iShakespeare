@@ -1,13 +1,12 @@
 # iShakespeare
 
+<img src="images/chatbot_homepage_gif.gif" alt="iShakespeare Homepage GIF" width="550" height="320">
+
 ### Installation
 
 **Virtual Environment Setup**
-Before setting up the virtual environment, ensure that you have Python 3.9 or higher installed on your system.
 
-### Installation
-**Virtual Environment Setup**\
-Before setting up the virtual environment, ensure that you have Python 3.9 or higher installed on your system.
+Before setting up the virtual environment, ensure that you have Python 3.9 or higher installed on your system, then proceed according to the following steps:
 1. Clone the project repository: `https://github.com/OneLeoTav/iShakespeare.git/`
 2. Create a virtual environment: `virtualenv env` on Linux/MacOS or `python -m venv venv` on Windows
 3. Then activate the virtual environment:
